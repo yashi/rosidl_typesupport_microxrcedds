@@ -1,0 +1,6 @@
+name: rosidl_typesupport_microxrcedds
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - microcdr
